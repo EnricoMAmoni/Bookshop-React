@@ -15,7 +15,7 @@
 body{
     /* background-color: var(--primary-color); */
     background-image: url(./images/AnimatedShape.svg);
-    background-size: cover;
+    /* background-size: cover; */
     /* background-repeat: no-repeat; */
 }
 
@@ -95,6 +95,13 @@ html{
     padding: 0 0.5rem;
     font-size: 15px;
     font-weight: bold;
+    background-color: transparent;
+    border: solid 1px wheat;
+    border-radius: 10px;
+}
+
+input, select, textarea{
+    color: var(--secondary-color);
 }
 
 .search button{
@@ -118,7 +125,7 @@ html{
 
 .card{
     /* background-color: var(--secondary-color); */
-    background-color: aqua;
+    background-color: var(--secondary-color);
     /* border-radius: 1rem; */
     padding: 0.5rem;
     margin-bottom: 10px;

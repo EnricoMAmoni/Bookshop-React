@@ -41,9 +41,9 @@ const Main=()=> {
                 <div className="row2">
                     <h2>Find Your Book</h2>
                     <div className="search">
-                        <input type="text" placeholder="Enter Your Book Name" value={search} onChange={e=>setSearch(e.target.value)} onKeyPress={searchBook}/>
+                        <input type="text" placeholder="Enter Your Book Name and &#9166;" value={search} onChange={e=>setSearch(e.target.value)} onKeyPress={searchBook}/>
 
-                        <button type="button" class="btn btn-primary">Go</button>
+                        {/* <button type="button" class="btn btn-primary">Go</button> */}
 
 
                     </div>
