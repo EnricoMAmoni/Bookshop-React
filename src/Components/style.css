@@ -13,18 +13,25 @@
 }
 
 body{
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-image: url(./images/AnimatedShape.svg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
 }
 
 html{
     font-size: 75.5%;
 }
 
+.OUR{
+    font-family: cursive;
+}
+
 .header{
     width: 100%;
     height:500px;
     color: var(--secondary-color);
-    box-shadow: 0 5px 10px var(--secondary-color);
+    box-shadow: 0 0.5px 2px var(--secondary-color);
     display: flex;
     align-items: center;
     position: relative;
@@ -59,6 +66,7 @@ html{
     font-size: 3rem;
     margin-top: 20px;
     margin-bottom:15px;
+    
 }
 
 .row2 img{
@@ -109,8 +117,9 @@ html{
 
 
 .card{
-    background-color: var(--secondary-color);
-    border-radius: 1rem;
+    /* background-color: var(--secondary-color); */
+    background-color: aqua;
+    /* border-radius: 1rem; */
     padding: 0.5rem;
     margin-bottom: 10px;
     box-shadow: 0 5px 5px rgba(212, 185, 150, .5);
@@ -127,7 +136,7 @@ html{
 .card img{
     width: 100%;
     height: 200px;
-    border-radius: 1rem 1rem 0 0; 
+    /* border-radius: 1rem 1rem 0 0;  */
 }
 
 
