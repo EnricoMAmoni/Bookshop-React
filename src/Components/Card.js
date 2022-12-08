@@ -20,6 +20,7 @@ const Card = ({ book }) => {
                                     <p className="amount">Not For Sale</p>
                                 </div>
                             </div>
+                    
                             <Modal show={show} item={bookItem} onClose={()=>setShow(false)}/>
                             </>
                         )
