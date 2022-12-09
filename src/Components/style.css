@@ -13,74 +13,51 @@
 }
 
 body{
-    /* background-color: var(--primary-color); */
     background-image: url(./images/AnimatedShape.svg);
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
 }
 
 html{
     font-size: 75.5%;
 }
 
+h1{
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10vh;
+    
+}
+
+h6{
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 8vh;
+    font-family: 'Bodoni Moda', serif;
+}
+
 .OUR{
     font-family: cursive;
 }
 
-.header{
-    width: 100%;
-    height:500px;
-    color: var(--secondary-color);
-    box-shadow: 0 0.5px 2px var(--secondary-color);
-    display: flex;
-    align-items: center;
-    position: relative;
-    flex-wrap: wrap;
-  
-
-}
-
-.row2{
-    position: absolute;
-    top:10px;
-    right:150px;
-    text-align: center;
-
-    
-
-}
-
-.row2 h2{
-    font-size: 3rem;
-    margin-top: 20px;
-    margin-bottom:15px;
-    text-align: center;
-    
-}
-
-.row2 img{
-    margin-top: 30px;
-    width: 250px;
-}
-
-
-.row1 h1{
-    font-size: 3rem;
-    text-align: center;
-    margin-left: 35px;
-    font-family: 'Bodoni Moda', serif;
+.logo{
+    width: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .search{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10vh;
 }
 
 .search input{
     outline: 0;
     border:0;
-    width: 350px;
+    width: 450px;
     height: 35px;
     padding: 0 0.5rem;
     font-size: 15px;
@@ -94,12 +71,6 @@ input, select, textarea{
     color: var(--secondary-color);
 }
 
-.search button{
-    outline: nome;
-    border: none;
-    height: 35px;
-    padding: 0 0.5rem;
-}
 
 .container{
     width: 65%;
@@ -114,9 +85,7 @@ input, select, textarea{
 
 
 .card{
-    /* background-color: var(--secondary-color); */
     background-color: var(--secondary-color);
-    /* border-radius: 1rem; */
     padding: 0.5rem;
     margin-bottom: 10px;
     box-shadow: 0 5px 5px rgba(212, 185, 150, .5);
@@ -133,7 +102,6 @@ input, select, textarea{
 .card img{
     width: 100%;
     height: 200px;
-    /* border-radius: 1rem 1rem 0 0;  */
 }
 
 

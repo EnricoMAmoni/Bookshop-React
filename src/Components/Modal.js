@@ -17,11 +17,9 @@ const Modal=({show, item, onClose})=>{
                         <h4>{item.volumeInfo.publisher}<sapn>{item.volumeInfo.publishedDate}</sapn></h4>
                         <a href={item.volumeInfo.previewLink}><button>More</button></a>
                     </div>
-
                 </div>
                 <h4 className='description'>{item.volumeInfo.description}</h4> 
             </div>
-
         </div>
         </>
     )

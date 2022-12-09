@@ -7,21 +7,22 @@ const Card = ({ book }) => {
         <>
             {
                 book.map((item) => {
-                    let thumbnail=item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail;
-                    // let amount=item.salesInfo.listPrice && item.salesInfo.listPrice.amount;
-                    if(thumbnail!= undefined){
+                    
+                    let thumbnail = item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail;
+                    
+                    if (thumbnail != undefined) {
 
                         return (
                             <>
-                            <div className="card" onClick={()=>{setShow(true);setItem(item)}}>
-                                <img src={thumbnail} />
-                                <div className="bottom">
-                                    <h3 className="title">{item.volumeInfo.title}</h3>
-                                    <p className="amount">Not For Sale</p>
+                                <div className="card" onClick={() => { setShow(true); setItem(item) }}>
+                                    <img src={thumbnail} />
+                                    <div className="bottom">
+                                        <h3 className="title">{item.volumeInfo.title}</h3>
+                                        <p className="amount">Not For Sale</p>
+                                    </div>
                                 </div>
-                            </div>
-                    
-                            <Modal show={show} item={bookItem} onClose={()=>setShow(false)}/>
+
+                                <Modal show={show} item={bookItem} onClose={() => setShow(false)} />
                             </>
                         )
                     }
